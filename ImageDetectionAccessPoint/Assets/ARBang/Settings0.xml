@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes"?>
+<ARBang>
+	<ARBangTableSettings id="0">
+		<CentralArea start_x="35" start_y="0" width="30" height="65" />
+		<Players numberOf="4">
+			<Player id="0">
+				<!-- Player with id 0 is settings for whole table and contain cetral area with packs of cards -->
+				<ActiveArea start_x="35" start_y="0" width="30" height="65" />
+			</Player>
+			<Player id="1">
+				<ActiveArea start_x="0" start_y="0" width="25" height="65" />
+				<EffectsArea start_x="28" start_y="3" width="8" height="25" />
+			</Player>
+			<Player id="2">
+				<ActiveArea start_x="0" start_y="65" width="50" height="35" />
+				<EffectsArea start_x="31" start_y="50" width="18" height="14" />
+			</Player>
+			<Player id="3">
+				<ActiveArea start_x="50" start_y="65" width="50" height="35" />
+				<EffectsArea start_x="51" start_y="50" width="18" height="14" />
+			</Player>
+			<Player id="4">
+				<ActiveArea start_x="75" start_y="0" width="25" height="65" />
+				<EffectsArea start_x="65" start_y="3" width="8" height="25" />
+			</Player>
+		</Players>
+		<CardsPosition>
+			<!-- common -->
+			<Card id="0" player_id="0" size_id="0" left_top_corner_x="47" left_top_corner_y="25" turn_ninety="false" />
+			<!-- player 1 -->
+			<Card id="1" player_id="1" size_id="0" left_top_corner_x="2" left_top_corner_y="5" turn_ninety="true" />
+			<Card id="2" player_id="1" size_id="0" left_top_corner_x="2" left_top_corner_y="18" turn_ninety="true" />
+			<Card id="3" player_id="1" size_id="0" left_top_corner_x="2" left_top_corner_y="31" turn_ninety="true" />
+			<Card id="4" player_id="1" size_id="0" left_top_corner_x="2" left_top_corner_y="49" turn_ninety="true" />
+			<!-- player 2 -->
+			<Card id="5" player_id="2" size_id="0" left_top_corner_x="10" left_top_corner_y="73" turn_ninety="false" />
+			<Card id="6" player_id="2" size_id="0" left_top_corner_x="20" left_top_corner_y="73" turn_ninety="false" />
+			<Card id="7" player_id="2" size_id="0" left_top_corner_x="30" left_top_corner_y="73" turn_ninety="false" />
+			<Card id="8" player_id="2" size_id="0" left_top_corner_x="40" left_top_corner_y="73" turn_ninety="false" /> 
+			<!-- player 3 -->
+			<Card id="9" player_id="3" size_id="0" left_top_corner_x="55" left_top_corner_y="73" turn_ninety="false" />
+			<Card id="10" player_id="3" size_id="0" left_top_corner_x="65" left_top_corner_y="73" turn_ninety="false" />
+			<Card id="11" player_id="3" size_id="0" left_top_corner_x="75" left_top_corner_y="73" turn_ninety="false" />
+			<Card id="12" player_id="3" size_id="0" left_top_corner_x="85" left_top_corner_y="73" turn_ninety="false" /> 
+			<!-- player 4 -->
+			<Card id="13" player_id="4" size_id="0" left_top_corner_x="85" left_top_corner_y="5" turn_ninety="true" />
+			<Card id="14" player_id="4" size_id="0" left_top_corner_x="85" left_top_corner_y="18" turn_ninety="true" />
+			<Card id="15" player_id="4" size_id="0" left_top_corner_x="85" left_top_corner_y="31" turn_ninety="true" />
+			<Card id="16" player_id="4" size_id="0" left_top_corner_x="85" left_top_corner_y="49" turn_ninety="true" /> 
+		</CardsPosition>
+	</ARBangTableSettings>
+	<ARBangGameSettings>
+		<CardSize id="0">
+			<height>95</height>
+			<width>65</width>
+		</CardSize>
+	</ARBangGameSettings>
+</ARBang>
